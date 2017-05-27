@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        ~function () {
+            var winW = document.documentElement.clientWidth;
+            document.documentElement.style.fontSize = winW / 750 * 100 + "px";
+        }();
+
+    </script>
+    <script src="js/jquery.js"></script>
+    <script src="js/lufylegend-1.10.1.js"></script>
+    <script src="js/class.js"></script>
+    <link href="css/index.css" rel="stylesheet">
+</head>
+<body>
+
+    <img src="img/title.png" class="title">
+    <img src="img/letter.png" class="letter">
+    <img src="img/people.png" class="people">
+    <button class="button"></button>
+    <img src="img/guize.png" class="guize">
+    <div class="gametit"></div>
+    <div class="gamediv">
+        <div class="progressbg">
+            <div class="progress">
+                <img src="img/progress.png">
+            </div>
+        </div>
+        <div class="nums">
+            <div class="numitem">1</div>
+            <div class="numitem">2</div>
+            <div class="numitem">3</div>
+            <div class="numitem">4</div>
+            <div class="numitem">5</div>
+            <div class="numitem">6</div>
+            <div class="numitem">7</div>
+            <div class="numitem">8</div>
+            <div class="numitem">9</div>
+            <div class="numitem">10</div>
+        </div>
+    </div>
+    <div class="sucdiv">
+        <div class="sucnum"></div>
+        <p></p>
+    </div>
+    <div class="sucbot">
+        <div class="btnbox">
+            <a href="javascript:again()">再来一次</a>
+            <a>让朋友来挑战</a>
+        </div>
+        <div class="downbtn">内容来自“单词部落”，点击下载，查看更多趣图<a href="javascript:down()"></a></div>
+    </div>
+    <div class="quest">
+        <div class="img">
+            <img>
+        </div>
+        <div class="gray"></div>
+        <div class="yell">
+            <div>
+                <p class="correct">正确答案：<span class="answer"></span></p>
+                <p>单词谐音：<span class="tone"></span></p>
+                <p class="txt"></p>
+            </div>
+        </div>
+    </div>
+    <div class="word"></div>
+    <div class="bottom">
+
+    </div>
+    <div class="answin">
+        <div class="txtbox">
+            <!--<a class="close" href=""></a>-->
+            <div class="tipbox">
+                <p>单词部落提示</p>
+                <p class="answer">al<span>o</span>ng</p>
+            </div>
+            <div class="txt">
+                饿狼<span>沿着</span>羊的脚印往前找。
+            </div>
+        </div>
+    </div>
+    <div id="myDiv">
+
+    </div>
+</body>
+<script src="js/data.js"></script>
+<script src="js/index.js"></script>
+</html>
